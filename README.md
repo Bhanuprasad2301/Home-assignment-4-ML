@@ -16,9 +16,9 @@ It finally picks out only nouns and verbs, because they carry the most important
 
 2)
 The code splits the text into words to start analyzing the sentence properly.
-It uses POS tagging to label each word (noun, verb, proper noun, etc.
-It performs Named Entity Recognition (NER) to detect names, companies, and places.
-It identifies entities like “Chris” (person), “Apple” (organization), California, location
+It uses POS tagging to label each word noun, verb, proper noun, etc.
+It performs Named Entity Recognition NER to detect names, companies, and places.
+It identifies entities like Chris ,person, Apple organization, California, location
 It prints these named entities in a clear format so you can easily see what was detected.
 It checks if pronouns like he, she, they appear in the sentence.
 If pronouns are found, it prints a warning because the sentence may be confusing about who the pronoun refers to.
