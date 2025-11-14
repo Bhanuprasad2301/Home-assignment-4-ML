@@ -8,6 +8,12 @@ It uses POS tagging to check whether each word is a noun, verb, adjective, etc.
 It applies lemmatization, which means turning words into their root form playing → play
 It creates a clean list of meaningful words that are easier for ML models to understand.
 It finally picks out only nouns and verbs, because they carry the most important information.
+
+
+
+
+
+
 2)
 The code splits the text into words to start analyzing the sentence properly.
 It uses POS tagging to label each word (noun, verb, proper noun, etc.
